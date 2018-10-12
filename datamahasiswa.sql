@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 12 Okt 2018 pada 05.06
+-- Waktu pembuatan: 12 Okt 2018 pada 05.11
 -- Versi server: 10.1.34-MariaDB
 -- Versi PHP: 7.2.7
 
@@ -40,6 +40,13 @@ CREATE TABLE `datamahasiswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data untuk tabel `datamahasiswa`
+--
+
+INSERT INTO `datamahasiswa` (`nim`, `nama`, `kelas`, `gender`, `hobi`, `fakultas`, `alamat`, `password`) VALUES
+(2147483647, 'Septi Maudi P', 'MI4102', 'Perempuan', 'Olahraga', 'Fakultas Ilmu Terapan', 'clcp', '12345');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -57,7 +64,7 @@ ALTER TABLE `datamahasiswa`
 -- AUTO_INCREMENT untuk tabel `datamahasiswa`
 --
 ALTER TABLE `datamahasiswa`
-  MODIFY `nim` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `nim` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2147483647;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
