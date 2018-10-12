@@ -60,7 +60,7 @@
 		<tr>
 			<td>PASSWORD</td>
 			<td>:</td>
-			<td><input type="password" name="pass"></td>
+			<td><input type="password" name="password"></td>
 		</tr>
 		<tr>
 			<td></td>
